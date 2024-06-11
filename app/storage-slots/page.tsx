@@ -302,7 +302,7 @@ const StorageSlots = () => {
           />
         </Container>
         <TabsSelector
-          tabs={["EIP-1967", "Custom"]}
+          tabs={["Custom", "EIP-1967"]}
           selectedTabIndex={selectedTabIndex}
           setSelectedTabIndex={setSelectedTabIndex}
         />
@@ -310,17 +310,17 @@ const StorageSlots = () => {
           switch (selectedTabIndex) {
             case 0:
               return (
-                <EIP1967Select
-                  EIP1967Options={EIP1967Options}
-                  selectedEIP1967Slot={selectedEIP1967Slot}
-                  setSelectedEIP1967Slot={setSelectedEIP1967Slot}
+                <StorageSlotInput
+                  storageSlot={storageSlot}
+                  setStorageSlot={setStorageSlot}
                 />
               );
             case 1:
               return (
-                <StorageSlotInput
-                  storageSlot={storageSlot}
-                  setStorageSlot={setStorageSlot}
+                <EIP1967Select
+                  EIP1967Options={EIP1967Options}
+                  selectedEIP1967Slot={selectedEIP1967Slot}
+                  setSelectedEIP1967Slot={setSelectedEIP1967Slot}
                 />
               );
           }

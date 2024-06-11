@@ -8,15 +8,15 @@ import subdomains from "@/subdomains";
 import { DarkButton } from "@/components/DarkButton";
 
 const subdomainToLabel = {
-  [subdomains.CONSTANTS.base]: "Constants",
-  [subdomains.EPOCH_CONVERTER.base]: "Epoch Converter",
-  [subdomains.EXPLORER.base]: "Explorer",
+  // [subdomains.CONSTANTS.base]: "Constants",
+  // [subdomains.EPOCH_CONVERTER.base]: "Epoch Converter",
+  // [subdomains.EXPLORER.base]: "Explorer",
   [subdomains.CONVERTER.base]: "Converter",
-  [subdomains.TRANSACT.base]: "Transact",
-  [subdomains.CALLDATA.base]: "Calldata",
+  // [subdomains.TRANSACT.base]: "Transact",
+  // [subdomains.CALLDATA.base]: "Calldata",
   [subdomains.STORAGE_SLOTS.base]: "Storage Slots",
-  [subdomains.UNISWAP.base]: "Uniswap V3",
-  [subdomains.CHARACTER_COUNTER.base]: "Character Counter",
+  // [subdomains.UNISWAP.base]: "Uniswap V3",
+  // [subdomains.CHARACTER_COUNTER.base]: "Character Counter",
   [subdomains.CONTRACT_ADDRESS.base]: "Contract Address",
 };
 

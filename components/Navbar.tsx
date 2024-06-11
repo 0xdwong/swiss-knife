@@ -62,19 +62,19 @@ export const Navbar = () => {
           <Heading color="custom.pale" pl="1rem">
             <Link href={baseURL}>
               <HStack spacing={"4"}>
-                <Image w="3rem" alt="icon" src="/icon.png" rounded={"lg"} />
+                {/* <Image w="3rem" alt="icon" src="/icon.png" rounded={"lg"} /> */}
                 <Text>Swiss Knife</Text>
               </HStack>
             </Link>
           </Heading>
         </Center>
         <Flex flex="1" justifyContent="flex-end" pr="1rem" pt="1rem">
-          <ChakraLink
+          {/* <ChakraLink
             href={"https://github.com/swiss-knife-xyz/swiss-knife"}
             isExternal
           >
             <FontAwesomeIcon icon={faGithub} size="2x" />
-          </ChakraLink>
+          </ChakraLink> */}
         </Flex>
       </Flex>
       {leaderboard && (

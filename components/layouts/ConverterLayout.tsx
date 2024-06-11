@@ -6,7 +6,7 @@ import { Sidebar, SidebarItem } from "@/components/Sidebar";
 import subdomains from "@/subdomains";
 
 const SidebarItems: SidebarItem[] = [
-  { name: "ETH", path: "eth" },
+  // { name: "ETH", path: "eth" },
   { name: "Hexadecimal", path: "hexadecimal" },
   { name: "Keccak256", path: "keccak256" },
   { name: "Padding", path: "padding" },

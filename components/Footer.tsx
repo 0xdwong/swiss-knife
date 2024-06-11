@@ -24,7 +24,7 @@ export const Footer = () => {
       borderTopWidth={1}
       borderColor={"custom.greenDarker"}
     >
-      <Container as={Stack} maxW={"8xl"} py={10}>
+      {/* <Container as={Stack} maxW={"8xl"} py={10}>
         <VStack spacing={5}>
           <Center flexDir={"column"}>
             <Heading size="md">
@@ -52,7 +52,7 @@ export const Footer = () => {
             </Link>
           </Center>
         </VStack>
-      </Container>
+      </Container> */}
     </Box>
   );
 };
